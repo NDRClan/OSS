@@ -1,0 +1,28 @@
+h3{
+    text-indent: 10px;
+    color: darkblue;
+    background-color:rgb(213, 233, 194);
+}
+
+h1{
+    color: darkseagreen;
+    text-shadow: 20px;
+}
+
+p{
+    padding-left: 10px;
+}
+
+li{
+    color: rgb(34, 90, 122);
+    text-overflow: overline;
+}
+
+#naver{
+    padding-left: 70px;
+    font-size: 20pt;
+}
+
+a:hover{
+    color: green;
+}
