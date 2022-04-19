@@ -17,3 +17,11 @@ body{
     margin-left: 150px;
 }
 
+#mahjang{
+    padding-left: 100px;
+    font-size: 20pt;
+}
+
+a:hover{
+    color: green;
+}
