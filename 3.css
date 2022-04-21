@@ -68,5 +68,24 @@ header{
    }
 
 
+   @media screen and (max-width : 750px){
+    header{
+       font-size: 40pt;
+    }
+}
+
+   @media screen and (min-width : 1000px){
+    header{
+        font-size: 70pt;
+    }
+}
+
+@viewport {
+    width: 300px 960px;
+    height: device-height;
+    min-zoom: 1;
+    max-zoom: 1;
+    user-zoom: fixed;
+}
 
 
