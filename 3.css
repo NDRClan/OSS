@@ -32,6 +32,7 @@ body{
     padding-left: 100px;
     font-size: 20pt;
     margin-top: 10px;
+    
 }
 
 a:hover{
@@ -44,37 +45,28 @@ header{
     font-weight: bold;
 }
 
-.jb {
-    box-sizing: border-box;
-
-    height: 16px;
-    margin: 10px 0px;
-    background-color: orange;
-    transition-property: all;
-    transition-duration: 4s;
-}
-input:checked ~ .jb {
-    width: 100%;
-}
-.jb1 {
-    transition-timing-function: ease;
+#mmimg{
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #img_box{
     /* position: fixed; */
+    border: 0px;
+    margin: 0px;
+    overflow:hidden;
     box-sizing: border-box;
-    height: 16px;
-    background-color: orange;
-
-    right: 0px;
+    height: 0px;
     transition-property: all;
-	transition-duration: 4s;
-
-    
-    
-}
-
-input:checked ~ #img_box {
-    /* width: 800px;     */
+    transition-duration: 4s;
+   }
+   
+   input:checked ~#img_box {
+    height: 150px;    
     transition-timing-function: ease-in;
-}
+   }
+
+
+
+
